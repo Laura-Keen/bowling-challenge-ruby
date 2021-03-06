@@ -54,6 +54,11 @@ If the player rolls a strike or spare in the 10th frame they can roll the additi
 
 A Gutter Game is when the player never hits a pin (20 zero scores).
 
+## Planning
+
+![Screenshot 2021-03-06 at 16 08 02](https://user-images.githubusercontent.com/60509804/110213041-40114580-7e96-11eb-98bc-1866351f390f.png)
+
+
 ### Perfect Game
 
 A Perfect Game is when the player rolls 12 strikes (10 regular strikes and 2 strikes for the bonus in the 10th frame). The Perfect Game scores 300 points.
