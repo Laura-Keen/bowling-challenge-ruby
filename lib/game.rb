@@ -11,7 +11,12 @@ class Game
   end
 
   def roll_1(roll_1)
+    if roll_1 == 10
+      @frame += 1
       @score.push(roll_1)
+    else
+      @score.push(roll_1)
+    end
   end
 
   def roll_2(roll_2)

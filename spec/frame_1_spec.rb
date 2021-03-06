@@ -20,7 +20,7 @@ describe Game do
     it 'player scores a strike' do
       subject.roll_1(10)
       expect(subject.player_score). to eq(10)
-      expect(subject.current_frame).to eq 1
+      expect(subject.current_frame).to eq 2
     end
   end
 
