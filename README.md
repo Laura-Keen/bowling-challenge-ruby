@@ -54,11 +54,6 @@ If the player rolls a strike or spare in the 10th frame they can roll the additi
 
 A Gutter Game is when the player never hits a pin (20 zero scores).
 
-## Planning
-
-![Screenshot 2021-03-06 at 16 08 02](https://user-images.githubusercontent.com/60509804/110213041-40114580-7e96-11eb-98bc-1866351f390f.png)
-
-
 ### Perfect Game
 
 A Perfect Game is when the player rolls 12 strikes (10 regular strikes and 2 strikes for the bonus in the 10th frame). The Perfect Game scores 300 points.
@@ -68,3 +63,38 @@ In the image below you can find some score examples.
 More about ten pin bowling here: http://en.wikipedia.org/wiki/Ten-pin_bowling
 
 ![Ten Pin Score Example](images/example_ten_pin_scoring.png)
+
+
+## Planning
+
+**Notes**
+  - sequence diagram for user journey
+  - User inputs scores 
+  - Work on base game first before adding bonus games
+  - write minimilast interpretation first - then you can pick the classes
+  - class diagram
+
+#### Understanding The Scoring:
+
+![Screenshot 2021-03-06 at 16 08 02](https://user-images.githubusercontent.com/60509804/110213041-40114580-7e96-11eb-98bc-1866351f390f.png)
+
+#### Implementation
+
+***First:***
+
+- User inputs scores for 10 games
+- 2 rolls per game
+- Program adds up scores
+- Program outputs total score
+
+Classes: Game
+
+  Initialized with:
+   - scores = []
+   - frame_count = 1
+
+  Has methods:
+   - frame = takes 2 arguments for each roll, pushes them into scores array
+   - total scores added together
+
+
